@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Instrument Serif';
+    src: url('fonts/InstrumentSerif-Italic.woff2') format('woff2'),
+        url('fonts/InstrumentSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-ExtraBold.woff2') format('woff2'),
+        url('fonts/Haskoy-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-Bold.woff2') format('woff2'),
+        url('fonts/Haskoy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-BoldItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-MediumItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-LightItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-Light.woff2') format('woff2'),
+        url('fonts/Haskoy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-Regular.woff2') format('woff2'),
+        url('fonts/Haskoy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-SemiBold.woff2') format('woff2'),
+        url('fonts/Haskoy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-Italic.woff2') format('woff2'),
+        url('fonts/Haskoy-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-ExtraLight.woff2') format('woff2'),
+        url('fonts/Haskoy-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-Medium.woff2') format('woff2'),
+        url('fonts/Haskoy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-Thin.woff2') format('woff2'),
+        url('fonts/Haskoy-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haskoy';
+    src: url('fonts/Haskoy-ThinItalic.woff2') format('woff2'),
+        url('fonts/Haskoy-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Serif';
+    src: url('fonts/InstrumentSerif-Regular.woff2') format('woff2'),
+        url('fonts/InstrumentSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
