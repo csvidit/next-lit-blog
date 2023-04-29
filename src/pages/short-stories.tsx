@@ -19,15 +19,36 @@ export default function Home() {
           </div>
         </Header>
         <div className="grid grid-cols-2 gap-x-16 gap-y-16">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card label="The Desert Dunes of Egypt" date={new Date().getTime()} href="/" read_time={25}>
+            The desert dunes of Egypt are a stunning natural wonder. These
+            massive sand formations, sculpted by the wind over thousands of
+            years, stretch for miles across the vast expanses of the countrys
+            deserts.
+          </Card>
+          <Card label="The Desert Dunes of Egypt" date={new Date().getTime()} href="/" read_time={25}>
+            The desert dunes of Egypt are a stunning natural wonder. These
+            massive sand formations, sculpted by the wind over thousands of
+            years, stretch for miles across the vast expanses of the countrys
+            deserts.
+          </Card>
+          <Card label="The Desert Dunes of Egypt" date={new Date().getTime()} href="/" read_time={25}>
+            The desert dunes of Egypt are a stunning natural wonder. These
+            massive sand formations, sculpted by the wind over thousands of
+            years, stretch for miles across the vast expanses of the countrys
+            deserts.
+          </Card>
+          <Card label="The Desert Dunes of Egypt" date={new Date().getTime()} href="/" read_time={25}>
+            The desert dunes of Egypt are a stunning natural wonder. These
+            massive sand formations, sculpted by the wind over thousands of
+            years, stretch for miles across the vast expanses of the countrys
+            deserts.
+          </Card>
+          <Card label="The Desert Dunes of Egypt" date={new Date().getTime()} href="/" read_time={25}>
+            The desert dunes of Egypt are a stunning natural wonder. These
+            massive sand formations, sculpted by the wind over thousands of
+            years, stretch for miles across the vast expanses of the countrys
+            deserts.
+          </Card>
         </div>
       </MainContent>
       <NavBar />

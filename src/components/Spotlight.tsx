@@ -5,7 +5,6 @@ import TitleLink from "./TitleLink";
 import Link from "next/link";
 import JumboTitle from "./JumboTitle";
 import SpotlightTitle from "./SpotlightTitle";
-import DesignOne from "./DesignOne";
 
 const Spotlight = () => {
   return (
