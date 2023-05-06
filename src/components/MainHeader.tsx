@@ -4,7 +4,7 @@ import JumboTitle from "./JumboTitle";
 
 const MainHeader = () => {
   return (
-    <div className="rounded-2xl flex flex-row space-x-4 justify-start items-end">
+    <div className="rounded-2xl flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 justify-start lg:items-end">
       <JumboTitle>
         Lit<span className="text-accent">.</span> Blog
       </JumboTitle>
