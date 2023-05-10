@@ -10,7 +10,7 @@ const Spotlight = () => {
   return (
     <Link
       href="/"
-      className="p-4 rounded-2xl flex flex-col space-y-4 justify-start group hover:transition-all border border-transparent hover:border hover:border-stone-600"
+      className="p-4 rounded-2xl flex flex-col space-y-4 justify-start group hover:transition-all border border-transparent hover:border hover:border-stone-600 dark:hover:border-violet-600"
     >
       <div className="flex flex-row space-x-4 items-center self-center pb-4">
         <SpotlightTitle>Featured</SpotlightTitle>

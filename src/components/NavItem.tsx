@@ -13,14 +13,14 @@ const NavItem = (props: {
   {
     return (
       <Link href={props.href} className="flex flex-row space-x-1 items-center group">
-        <motion.div className="flex flex-row items-center rounded-lg text-stone-900 text-xl group-hover:ease-in-out group-hover:transition-all group-hover:text-accent group-hover:transform">{props.children}
+        <motion.div className="flex flex-row items-center rounded-lg text-stone-900 dark:text-stone-100 text-xl group-hover:ease-in-out group-hover:transition-all group-hover:text-accent dark:group-hover:text-violet-600 group-hover:transform">{props.children}
         <BsArrowRightShort className="scale-0 group-hover:scale-100 group-hover:ease-in-out group-hover:transition-transform"/></motion.div>
       </Link>
     ); 
   }
   return (
     <Link href={props.href} className="flex flex-row space-x-1 items-center group">
-      <motion.div className="flex flex-row items-center px-2 py-1 rounded-lg text-stone-600 group-hover:ease-in-out group-hover:transition-all group-hover:bg-stone-200 group-hover:text-accent group-hover:transform group-hover:italic">{props.children}
+      <motion.div className="flex flex-row items-center px-2 py-1 rounded-lg text-stone-600 dark:text-stone-400 group-hover:ease-in-out group-hover:transition-all group-hover:bg-stone-200 dark:group-hover:bg-stone-800 group-hover:text-accent dark:group-hover:text-violet-600 group-hover:transform group-hover:italic">{props.children}
       <BsArrowRightShort className="scale-0 group-hover:scale-100 group-hover:ease-in-out group-hover:transition-transform"/></motion.div>
     </Link>
   );

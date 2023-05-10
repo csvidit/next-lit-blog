@@ -14,7 +14,7 @@ export default function Home() {
         <Header>
           <div className="rounded-2xl flex flex-row space-x-4 justify-start items-end">
             <JumboTitle>
-              Short Stories<span className="text-accent">.</span>
+              Short Stories<span className="text-accent dark:text-violet-500">.</span>
             </JumboTitle>
           </div>
         </Header>

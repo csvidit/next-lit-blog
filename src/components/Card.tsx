@@ -9,7 +9,7 @@ const Card = (props: {label: string | React.ReactNode; read_time: number; date: 
   return (
     <Link
       href="/"
-      className="p-8 rounded-2xl flex flex-col space-y-4 justify-start bg-stone-100 shadow-2xl shadow-accent group hover:duration-500 hover:ease-in-out hover:transition-all border border-transparent"
+      className="p-8 rounded-2xl flex flex-col space-y-4 justify-start bg-stone-100 dark:bg-stone-900 shadow-2xl shadow-accent dark:shadow-violet-500 group hover:duration-500 hover:ease-in-out hover:transition-all border border-transparent"
     >
       <div className="flex flex-row space-x-4 w-full">
         <div className="rounded-2xl flex flex-col space-y-4 justify-start">
@@ -32,7 +32,7 @@ const Card = (props: {label: string | React.ReactNode; read_time: number; date: 
           <p className="text-stone-600 font-sans">
             {props.children}
           </p>
-          <div className="rounded-full flex flex-row space-x-2 items-center text-accent">
+          <div className="rounded-full flex flex-row space-x-2 items-center text-accent dark:text-violet-500">
             <p className="group-hover:italic">Read it</p>
             <BsArrowRight className="group-hover:transition-all group-hover:translate-x-2 group-hover:ease-in-out group-hover:duration-300"/>
           </div>

@@ -9,7 +9,7 @@ const SpotlightTwo = () => {
   return (
     <Link
       href="/"
-      className="p-4 rounded-2xl shadow-2xl shadow-accent flex flex-col space-y-4 justify-start group hover:transition-all bg-stone-100 border border-transparent hover:border hover:border-stone-600"
+      className="p-4 rounded-2xl shadow-2xl shadow-accent dark:shadow-violet-600 flex flex-col space-y-4 justify-start group hover:transition-all bg-stone-100 dark:bg-stone-900 border border-transparent hover:border hover:border-stone-600 dark:hover:border-violet-500"
     >
       <div className="flex flex-row space-x-4 items-center self-center pb-4">
         <Image

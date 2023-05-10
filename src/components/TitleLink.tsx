@@ -9,7 +9,7 @@ const TitleLink = (props: { children: string | React.ReactNode }) => {
         {/* <span className="group-hover:hidden text-[#FF4552]">.</span> */}
       </h1>
       {/* <motion.div className="transition-all group-hover:bg-[#FF4552] rounded-full w-full h-1 -translate-y-2 bg-transparent"></motion.div> */}
-      <motion.div className="absolute -right-2 group-hover:right-0 group-hover:w-full transition-all rounded-full w-1 h-1 -translate-y-2 bg-accent"></motion.div>
+      <motion.div className="absolute -right-2 group-hover:right-0 group-hover:w-full transition-all rounded-full w-1 h-1 -translate-y-2 bg-accent dark:bg-violet-600"></motion.div>
     </Link>
   );
 };
