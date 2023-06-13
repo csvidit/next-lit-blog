@@ -6,8 +6,13 @@ import MainHeader from "@/components/MainHeader";
 import Header from "@/components/Header";
 import JumboTitle from "@/components/JumboTitle";
 import Card from "@/components/Card";
+import router from "next/router";
 
 export default function Home() {
+
+    const query = router.query.post;
+    
+
   return (
     <MainContainer>
       <MainContent>
@@ -18,8 +23,8 @@ export default function Home() {
             </JumboTitle>
           </div>
         </Header>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-16">
-          <Card label="The Desert Dunes of Floptropica" date={new Date().getTime()} href="/" read_time={25}>
+        <div className="grid grid-cols-1 gap-x-16 gap-y-16">
+          <Card label="The Desert Dunes of Egypt" date={new Date().getTime()} href="/" read_time={25}>
             The desert dunes of Egypt are a stunning natural wonder. These
             massive sand formations, sculpted by the wind over thousands of
             years, stretch for miles across the vast expanses of the countrys
@@ -55,3 +60,4 @@ export default function Home() {
     </MainContainer>
   );
 }
+

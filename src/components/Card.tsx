@@ -9,12 +9,12 @@ const Card = (props: {label: string | React.ReactNode; read_time: number; date: 
   return (
     <Link
       href="/"
-      className="p-8 rounded-2xl flex flex-col space-y-4 justify-start bg-stone-100 shadow-2xl shadow-accent group hover:duration-500 hover:ease-in-out hover:transition-all border border-transparent"
+      className="p-8 rounded-2xl flex flex-col max-w-full space-y-4 justify-start bg-stone-100 shadow-2xl shadow-accent group hover:duration-500 hover:ease-in-out hover:transition-all border border-transparent"
     >
       <div className="flex flex-row space-x-4 w-full">
         <div className="rounded-2xl flex flex-col space-y-4 justify-start">
-          <div className="flex flex-col space-y-2">
-            <TitleLink>The Desert Dunes of Egypt</TitleLink>
+          <div className="flex flex-col space-y-2 flex-wrap">
+            <TitleLink>{props.label}</TitleLink>
             <div className="flex flex-row space-x-4 text-xs uppercase">
               <div className="flex flex-row items-center space-x-2">
                 <BsClock />
@@ -29,7 +29,7 @@ const Card = (props: {label: string | React.ReactNode; read_time: number; date: 
             </div>
           </div>
 
-          <p className="text-stone-600 font-sans">
+          <p className="text-stone-600 font-sans flex-wrap">
             {props.children}
           </p>
           <div className="rounded-full flex flex-row space-x-2 items-center text-accent">
